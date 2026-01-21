@@ -13,7 +13,7 @@ SELECT
     job_schedule_type,
     salary_year_avg,
     job_posted_date,
-    company_dim.name
+    name as company_name
 FROM
     job_postings_fact
 LEFT JOIN company_dim on job_postings_fact.company_id = company_dim.company_id
