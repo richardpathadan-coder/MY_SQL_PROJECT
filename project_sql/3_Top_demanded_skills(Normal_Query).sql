@@ -1,5 +1,6 @@
 /*
-Top 5 demanded skills for remote jobs by (job_location = 'Anywhere')
+Top 5 demanded skills for remote jobs for the role data analyst
+ (job_location = 'Anywhere')
 
 */
 
