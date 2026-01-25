@@ -8,7 +8,7 @@ Which technical skills enhance both job stability and salary growth in the data 
 
 Which skills should aspiring Data Analysts prioritize to maximize long-term career and income prospects?*/
 
--- Use Query #3
+-- Use Query #3 for skills in demand
 WITH skills_demand AS (
     SELECT
         skills_dim.skill_id,
