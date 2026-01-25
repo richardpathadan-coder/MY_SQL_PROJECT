@@ -6,7 +6,7 @@
 # BACKGROUND
 Driven by a quest to navigate the data analyst job market more effectively, this project was born from a desire to pinpoint top-paid and in-demand skills, streamlining others work to find optimal jobs.
 
-Data hails from my [SQL Course](https://lukebarousse.com/sql). It's packed with insights on job titles, salaries, locations, and essential skills.
+Data hails from one of the SQL course by Mr.Luke Barousse [SQL Course](https://lukebarousse.com/sql). It's packed with insights on job titles, salaries, locations, and essential skills. All the credit for the datasets goes to him and very thankful for his wonderfull contribution of data.
 
 ### #### THE QUESTIONS I WANT TO ANSWER THROUGH MY SQL QUERIES WHERE:
 
@@ -55,7 +55,7 @@ Here's the breakdown of the top data analyst jobs in 2023:
 - **Diverse Employers:** Companies like SmartAsset, Meta, and AT&T are among those offering high salaries, showing a broad interest across different industries.
 - **Job Title Variety:** There's a high diversity in job titles, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
 
-![Top Paying Roles](assets/1_top_paying_roles.png)
+![Top Paying Roles](project_sql\IMAGE_DATAS/AVERAGE%20YEARLY%20SALARY%20BY%20DATA%20ANALYST%20JOB%20TITLE.png)
 *Bar graph visualizing the salary for the top 10 salaries for data analysts; ChatGPT generated this graph from my SQL query results*
 
 ### 2. Skills for Top Paying Jobs
