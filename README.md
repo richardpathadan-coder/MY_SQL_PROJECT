@@ -178,20 +178,22 @@ Here's a breakdown of the results for top paying skills for Data Analysts:
 - **Software Development & Deployment Proficiency:** Knowledge in development and deployment tools (GitLab, Kubernetes, Airflow) indicates a lucrative crossover between data analysis and engineering, with a premium on skills that facilitate automation and efficient data pipeline management.
 - **Cloud Computing Expertise:** Familiarity with cloud and data engineering tools (Elasticsearch, Databricks, GCP) underscores the growing importance of cloud-based analytics environments, suggesting that cloud proficiency significantly boosts earning potential in data analytics.
 
-| Skills        | Average Salary ($) |
-|---------------|-------------------:|
-| pyspark       |            208,172 |
-| bitbucket     |            189,155 |
-| couchbase     |            160,515 |
-| watson        |            160,515 |
-| datarobot     |            155,486 |
-| gitlab        |            154,500 |
-| swift         |            153,750 |
-| jupyter       |            152,777 |
-| pandas        |            151,821 |
-| elasticsearch |            145,000 |
+| Rank | Skill       | Average Salary (USD) |
+|------|-------------|----------------------|
+| 1    | svn         | 400,000.00           |
+| 2    | solidity    | 179,000.00           |
+| 3    | couchbase   | 160,515.00           |
+| 4    | datarobot   | 155,485.50           |
+| 5    | golang      | 155,000.00           |
+| 6    | mxnet       | 149,000.00           |
+| 7    | dplyr       | 147,633.33           |
+| 8    | vmware      | 147,500.00           |
+| 9    | terraform   | 146,733.83           |
+| 10   | twilio      | 138,500.00           |
 
 *Table of the average salary for the top 10 paying skills for data analysts*
+
+![LOLIPOPCHART](project_sql/IMAGE_DATAS/LOLIPOPCHART5.png)
 
 ### 5. Most Optimal Skills to Learn
 
@@ -235,6 +237,8 @@ LIMIT 25;
 
 *Table of the most optimal skills for data analyst sorted by salary*
 
+![LINECHART](project_sql/IMAGE_DATAS/LINECHART.png)
+
 Here's a breakdown of the most optimal skills for Data Analysts in 2023: 
 - **High-Demand Programming Languages:** Python and R stand out for their high demand, with demand counts of 236 and 148 respectively. Despite their high demand, their average salaries are around $101,397 for Python and $100,499 for R, indicating that proficiency in these languages is highly valued but also widely available.
 - **Cloud Tools and Technologies:** Skills in specialized technologies such as Snowflake, Azure, AWS, and BigQuery show significant demand with relatively high average salaries, pointing towards the growing importance of cloud platforms and big data technologies in data analysis.
@@ -258,7 +262,7 @@ From the analysis, several general insights emerged:
 2. **Skills for Top-Paying Jobs**: High-paying data analyst jobs require advanced proficiency in SQL, suggesting it’s a critical skill for earning a top salary.
 3. **Most In-Demand Skills**: SQL is also the most demanded skill in the data analyst job market, thus making it essential for job seekers.
 4. **Skills with Higher Salaries**: Specialized skills, such as SVN and Solidity, are associated with the highest average salaries, indicating a premium on niche expertise.
-5. **Optimal Skills for Job Market Value**: SQL leads in demand and offers for a high average salary, positioning it as one of the most optimal skills for data analysts to learn to maximize their market value.
+5. **Optimal Skills for Job Market Value**: High salaries come from rare skills like Go, Snowflake, and cloud platforms, while widely used tools such as SQL, Python, and Tableau provide strong job security but not premium pay.
 
 ### CLOSING THOUGHTS
 This project enhanced my SQL skills and provided valuable insights into the data analyst job market. The findings from the analysis serve as a guide to prioritizing skill development and job search efforts. Aspiring data analysts can better position themselves in a competitive job market by focusing on high-demand, high-salary skills. This exploration highlights the importance of continuous learning and adaptation to emerging trends in the field of data analytics.
