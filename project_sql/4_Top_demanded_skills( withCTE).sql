@@ -1,4 +1,5 @@
 /*
+wITH THE HELP OF CTE INSIDE QUERY
 Top 5 demanded skills for remote jobs for the role data analyst
 */
 

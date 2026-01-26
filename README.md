@@ -102,6 +102,8 @@ Other skills like **R**, **Snowflake**, **Pandas**, and **Excel** show varying d
 This query helped identify the skills most frequently requested in job postings, directing focus to areas with high demand.
 
 ```sql
+/*Top 5 demanded skills for remote jobs for the role data analyst
+ (job_location = 'Anywhere')*/
 SELECT 
     skills,
     COUNT(skills_job_dim.job_id) AS demand_count
@@ -115,6 +117,26 @@ GROUP BY
     skills
 ORDER BY
     demand_count DESC
+LIMIT 5;
+
+/*
+wITH THE HELP OF CTE INSIDE QUERY
+Top 5 demanded skills for remote jobs for the role data analyst
+*/ with remote_job_skills as (SELECT 
+skills_job_dim.skill_id,
+count(*) as job_count
+FROM skills_job_dim
+inner join job_postings_fact on skills_job_dim.job_id=job_postings_fact.job_id
+WHERE job_work_from_home = 'True' and job_title_short = 'Data Analyst'
+GROUP BY skill_id)
+
+SELECT 
+skills_dim.skill_id,
+skills_dim.skills,
+job_count
+FROM remote_job_skills
+inner join skills_dim on remote_job_skills.skill_id=skills_dim.skill_id
+ORDER by job_count DESC
 LIMIT 5;
 ```
 Here's the breakdown of the most demanded skills for data analysts in 2023
@@ -130,6 +152,7 @@ Here's the breakdown of the most demanded skills for data analysts in 2023
 | Power BI | 2609         |
 
 *Table of the demand for the top 5 skills in data analyst job postings*
+![PIECHART](project_sql/IMAGE_DATAS/PIECHART.png)
 
 ### 4. Skills Based on Salary
 Exploring the average salaries associated with different skills revealed which skills are the highest paying.
