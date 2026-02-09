@@ -8,7 +8,7 @@ Driven by a quest to navigate the data analyst job market more effectively, this
 
 Data hails from one of the SQL course by Mr.Luke Barousse [SQL Course](https://lukebarousse.com/sql). It's packed with insights on job titles, salaries, locations, and essential skills. All the credit for the datasets goes to him and very thankful for his wonderfull contribution of data.
 
-### #### THE QUESTIONS I WANT TO ANSWER THROUGH MY SQL QUERIES WHERE:
+### THE QUESTIONS I WANT TO ANSWER THROUGH MY SQL QUERIES WHERE:
 
 1. What are the top-paying data analyst jobs?
 2. What skills are required for these top-paying jobs?
